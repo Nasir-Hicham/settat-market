@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-media{
+    border: 1px solid lightgrey;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.contact-media a{
+    color: black;
+}
+.header-titre{
+    margin-bottom: 50px;
+}
+.header-titre h4{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.header-titre input, .header-titre button{
+    font-size: 14px;
+}
+.header-titre a{
+    color: black;
+    font-size: 15px;
+}
+.header-titre a i{
+    position: relative;
+    font-size: 16px;
+}
+.header-titre a i span{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: red;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    font-size: 8px;
+    color: white;
+    text-align: center;
+}
+.header-titre a .pl-2{
+    font-size: 14px;
+    font-weight: bold;
+}
+header{
+    background-color: #252525;
+    isolation: isolate;
+}
+header nav{
+    background-color: transparent;
+}
+header nav a{
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 25px;
+    transition: .4s ease-in all;
+}
+header nav a:hover, header nav .active a{
+    color: red;
+}
+header nav .dropdown{
+    background-color: #3B3B3B;
+    margin-right: 10px;
+}
+header nav .dropdown-item{
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.products{
+    margin-top: 60px;
+    position: relative;
+}
+.products button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 400;
+    background-color: white;
+    display: none;
+}
+.products .headphonimg:hover button, .products .standnimg:hover button, .products .chargerimg:hover button{
+    display: block;
+}
+.headphon, .stands, .charger{
+    margin-top: 60px;
+}
+.headphon .item{
+    margin-right: 10px;
+}
+.headphon .card{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.owl-carousel .owl-item img {
+    height: 220px;
+}
+.headphon img{
+    height: 120px;
+}
+.headphon .card .card-body h5{
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.headphon .card .card-body small{
+    text-decoration: line-through;
+    font-size: 9px;
+}
+.headphon .card .card-body p{
+    font-size: 11px;
+}
+.headphon .card .card-body span{
+    font-size: 12px;
+}
+.product-search{
+    width: 260px;
+    margin: 50px auto;
+}
+.search i{
+    padding-top: 12px;
+    padding-right: 5px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    float: left;
+}
+.search a{
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    border-bottom: 1px solid red;
+}
+hr{
+    margin-top: 50px;
+}
+.advantage i{
+    display: block;
+    height: 100%;
+    color: #C4161C;
+    position: relative;
+    font-size: 30px;
+}
+.advantage p{
+    line-height: 5px;
+    font-size: 16px;
+}
+.advantage .text-muted{
+    font-size: 12px;
+}
+footer{
+    margin-top: 60px;
+    background-color: #191919;
+    color: white;
+    isolation: isolate;
+}
+footer .container{
+    padding: 30px 0px;
+}
+footer .container p{
+    font-size: 12px;
+}
+footer .container a{
+    font-size: 14px;
+}
+footer .container h4{
+    font-size: 18px;
+}
+footer .container h5{
+    font-size: 16px;
+}
+footer .container input, footer .container input:focus{
+    background-color: #303030;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+footer .container button{
+    font-size: 14px;
+}
+.copyright p{
+    line-height: 2px;
+    font-size: 17px;
+}
+.copyright small{
+    font-size: 12px;
+}
+.copyright i{
+    color: limegreen;
+}
+/* tracking style*/
+
+.path{
+    margin-top: 20px;
+}
+.path a, path span{
+    color: black;
+    font-size: 14px;
+}
+.path hr{
+    margin-top: 10px;
+}
+.order, .cart, .checkout{
+    margin-top: 50px;
+}
+.order p, .cart p , .checkout p{
+    font-size: 15px;
+}
+.order input{
+    font-size: 13px;
+}
+.order .input-group-text{
+    font-size: 13px;
+}
+.order button{
+    font-size: 13px;
+}
+.navbar-toggler{
+    background-color: #000000;
+}
+.fa-shopping-cart{
+    color: dodgerblue;
+}
+.fa-shopping-cart span:first-of-type{
+    background: #fff;
+}
+.nav-link span:last-of-type{
+    color: dodgerblue;
+}
+ /* products style*/
+ .products .card{
+     width: 140px;
+ }
+ .products-headphone{
+     margin-top: 0px;
+ }
+ .products-adapter{
+     margin-top: 0px;
+     display: none;
+ }
+ .products-cases{
+    margin-top: 0px;
+    display: none;
+ }
+ .products-cabels{
+    margin-top: 0px;
+    display: none;
+ }
+ .products-chargers{
+    margin-top: 0px;
+    display: none;
+ }
+@media (max-width: 900px){
+    .contact-media .nav-item{
+        display: none;
+    }
+    .contact-media .nav-item:last-child{
+        display: block;
+    }
+    .header-titre h4{
+        font-size: 25px;
+        text-align:  center;
+        margin-bottom: 20px;
+    }
+    .header-titre input{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 700px){
+    .advantage{
+        text-align: center;
+    }
+    .advantage i {
+        margin-bottom: 20px;
+    }
+    footer .container{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .owl-carousel .owl-item img {
+        height: auto;
+    }
+    .path{
+        text-align: center;
+    }
+    .content-center{
+        text-align: center;
+    }
+    .products-headphone{
+        margin-top: 50px;
+    }
+    .products-adapter{
+        margin-top: 50px;
+    }
+    .products-headphone .card{
+        width: auto;
+    }
+    .products-cases{
+        margin-top: 50px;
+     }
+     .products-cabels{
+        margin-top: 50px;
+     }
+     .products-chargers{
+        margin-top: 50px;
+        display: none;
+     }
+}
+@media (max-width: 570px){
+    .headphon img{
+        height: auto;
+    }
+}
